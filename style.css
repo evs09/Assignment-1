@@ -26,7 +26,7 @@ nav {
     padding: 10px;
 }
 
-.nav-links{
+.nav-links, a{
 	color: #FEFAE0;
 	text-decoration: none;
 }
@@ -60,6 +60,7 @@ button {
 	color:#F5F4F5;
 	height: 2.5rem;
 	border-radius: 10px;
+	border: none;
 }
 
 #index-info{
@@ -85,3 +86,51 @@ p {
 	font-family: 'Lora', serif;
 }
 
+h3 {
+	margin: 20px;
+	color: #69903A;
+	padding: 10px;
+	font-size: 2rem;
+
+}
+
+#latest{
+	margin: 40px;
+}
+
+#news{
+	display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.news-box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	padding: 10px;
+
+	flex: 0 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#news-img {
+	width: 100%;
+  border-radius: 9px;
+}
+
+.news-title {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 2rem;
+	color: #BC6C25;
+}
+
+.news-box p {
+	width: 100%;
+}
+
+.news-btn{
+	align-content: center;
+}
