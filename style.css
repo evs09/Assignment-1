@@ -150,9 +150,9 @@ h3 {
 
 #founder-img {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
 	max-height: 40%;
 	border-radius: 25%;
 }
@@ -167,24 +167,37 @@ h3 {
 	padding: 5px;
 }
 
-#mission-section{
+#mission-section, #plant-section, #don-section{
 	margin: 30px;
 }
 
-#mission-h {
+#mission-h, #plant-h, #don-h {
 	text-align: center;
 }
 
-#mission-p{
+#mission-p, #plant-p, #don-p, #don-p2 {
 	padding-left: 15%;
 	padding-right: 15%;
 	padding-bottom: 30px;
 }
 
-#mis-img {
+#don-p {
+	font-size:1.25rem;
+}
+
+#mis-img, #plant-img, #don-img {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 	margin-bottom: 30px;
+}
+
+#don-btn {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 20%;
+	height: 50px;
+	margin-bottom: 20px;
 }
